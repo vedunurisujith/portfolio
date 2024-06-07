@@ -1,0 +1,341 @@
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+section {
+    background-color: white;
+
+}
+
+.hero {
+    background-color: #1c1d25;
+    height: 100vh;
+    color: white;
+    font-size: 40px;
+}
+footer {
+    height: max-content;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px;
+
+}
+legend{
+    font-size: 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+
+li {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 90px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 50px;
+}
+p {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.subtext {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: justify;
+
+    
+}
+
+.view-link-button {
+    margin: 20px;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center; 
+}
+
+.project-name {
+    font-size: 20px;
+}
+
+.hero-area {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text {
+    margin-left: 80px;
+    margin-bottom: 200px;
+
+}
+
+.button {
+    width: 200px;
+    height: 55px;
+    border-radius: 30px;
+    background-color: coral;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 5px;
+    margin-top: 20px;
+}
+
+.button-resume {
+    width: 150px;
+    height: 42px;
+    border-radius: 30px;
+    background-color: coral;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+    padding-top: 5px;
+    margin-top: 20px;
+}
+
+.view-link-button {
+    width: 150px;
+    height: 42px;
+    border-radius: 30px;
+    background-color: coral;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+    padding-top: 5px;
+    margin-top: 20px;
+    margin-left: 72px;
+}
+
+.button:hover{    
+    background-color: #ef744b;
+}
+
+.button-resume:hover{
+    background-color: #ef744b;
+}
+
+.view-link-button:hover{
+    background-color: #ef744b;
+}
+
+.socials-icon:hover{    
+    background-color: #ef744b;
+    border-radius: 25px;
+}
+
+
+.button:active{
+    background-color: #a9a9a9;
+    color: #808080;
+}
+
+
+.button-resume:active{
+    background-color: #a9a9a9;
+    color: #808080;
+}
+
+.view-link-button:active{
+    background-color: #a9a9a9;
+    color: #808080;
+}
+
+.socials-icon:active{
+    background-color: #a9a9a9;
+    color: #808080;
+    border-radius: 25px;
+}
+
+.socials {
+    padding-bottom: 200px;
+}
+
+.logo {
+    height: 60px;
+    margin: 30px;
+}
+
+.social {
+    margin: 20px;
+}
+
+.sub-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.sub-section-alt {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+}
+
+.headshot {
+    width: 300px;
+    border-radius: 20px;
+}
+
+.headshot-container {
+    display: flex;
+    align-items: center;
+}
+
+.project-card {
+    width: 300px;
+    height: 500px;
+    box-shadow: 5px 5px 20px grey;
+    margin: 10px;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 1000px){
+    .project-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.project-icon {
+    padding-top: 125px;
+}
+
+.project-link {
+    text-decoration: none;
+    color: white
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.hamburger {
+    display: none;
+}
+
+.hamburger:focus {
+    outline: zero;
+}
+
+@media only screen and (max-width: 1000px) {
+    .hamburger {
+        display: block;
+        border: 0;
+        background-color: transparent;
+        color: white;
+        font-size: 30px;
+        margin: 20px;
+        align-self: flex-end;
+    }
+    ul {
+        display: none;
+        background-color: #2b2c38;
+        margin: 0px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: #2b2c38;
+
+    }
+    .logo {
+        display: none;
+    }
+    
+    ul.show {
+        display: block;
+    }
+}
+
+/* Container Styling */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    font-size: 30px;
+}
+
+/* Input and Textarea Styling */
+.form-container input,
+.form-container textarea {
+    width: 500px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px; /* Added margin for better spacing */
+    padding: 10px; /* Added padding for better usability */
+    border: 1px solid #ccc; /* Added border for better visibility */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+/* Button Styling */
+#form-button,
+#new-form-button {
+    border: 0;
+    outline: 0;
+    color: white;
+    width: 120px;
+    height: 46px;
+    border-radius: 30px;
+    background-color: coral;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+    cursor: pointer; /* Changed cursor to pointer for better UX */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    margin-top: 10px; /* Added margin to separate from inputs */
+}
+
+/* Hover and Active States */
+#form-button:hover,
+#new-form-button:hover {
+    background-color: #ef744b; 
+}
+
+#form-button:active,
+#new-form-button:active {
+    background-color: #a9a9a9;
+    color: #808080;
+} 
+
+/* Success Message Styling */
+#success-message {
+    text-align: center;
+    color: green;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+/* Hidden Class to Hide Elements */
+.hidden {
+    display: none;
+}
